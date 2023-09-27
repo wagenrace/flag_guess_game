@@ -65,12 +65,12 @@ filterPlaces()
         <Score :score="score" />
         <div>
             <p>
-                You will get a flag of a place. Guess where it is on the map an hit 'Guess'.
+                You will get a flag of a place. Guess where it is on the map and hit 'Guess'.
                 The locations are from WikiData and linked to active jurisdiction not claims!
             </p>
         </div>
         <div class="flex flex-col">
-            <h1>What continents needs to be included</h1>
+            <h1>What continents need to be included</h1>
             <div>
                 <input class="mx-2" type="checkbox" id="checkbox" v-model="includeAfrica" />
                 <label>Africa</label>
@@ -81,11 +81,11 @@ filterPlaces()
             </div>
             <div>
                 <input class="mx-2" type="checkbox" id="checkbox" v-model="includeNorthAmerica" />
-                <label>NorthAmerica</label>
+                <label>North America</label>
             </div>
             <div>
                 <input class="mx-2" type="checkbox" id="checkbox" v-model="includeSouthAmerica" />
-                <label>SouthAmerica</label>
+                <label>South America</label>
             </div>
             <div>
                 <input class="mx-2" type="checkbox" id="checkbox" v-model="includeEurope" />
